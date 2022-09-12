@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My training form</title>
+    </head>
+    <body>
+        <form name="about" action="/">
+            <p><label for="Name">Name:</label></p>
+<input type="text" name="firstname" id="Name">
+<p> <label for="email">Email</label></p>
+<input type="email" name="email" id="email">
+<p>Sex</p>
+<input type="radio" name="Sex" value="Male"> Male
+<input type="radio" name="Sex" value="Female">Female
+<p>Current status</p>
+<input type="checkbox" name="Status" value="Student">Student<br>
+<input type="checkbox" name="Status" value="Employed">Employed<br>
+<input type="checkbox" name="Status" value="Unemployed">Unemployed<br>
+<p>Month and Year of birth:</p> 
+<select name="Month" id="Month_birth">
+    <option value="January">January</option>
+    <option value="February">February</option>
+    <option value="March">March</option>
+    <option value="April">April</option>
+    <option value="May">May</option>
+    <option value="June">June</option>
+    <option value="July">July</option>
+    <option value="August">August</option>
+    <option value="September">September</option>
+    <option value="October">October</option>
+    <option value="November">November</option>
+    <option value="December">December</option>
+</select>
+<select name="Year" id="Year_birth">
+    <option value="1984">1984</option>
+    <option value="1985">1985</option>
+    <option value="1986">1986</option>
+    <option value="1987">1987</option>
+</select>
+<P>Skill and Technologies</P>
+<select name="Skills&Technologies" id="">
+<optgroup label="Tech skills">
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="git">git</option>
+</optgroup>
+<optgroup label="Soft skills">
+    <option value="Time">Time management</option>
+    <option value="Proactivity">Proactivity</option>
+    <option value="Teamwork">Teamwork</option>
+    <option value="Leadership">Leadership</option>
+</optgroup>
+</select>
+<p>Photo</p>
+<input type="file" value="Choose file">
+<p>Comments</p>
+<textarea name="comments" id="" cols="25" rows="8"></textarea><br>
+<input type="submit" value="Save">
+</form>
+        
+    </body>
+</html>
