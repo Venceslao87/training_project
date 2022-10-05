@@ -1,0 +1,52 @@
+/* I. Text's Style */
+/* Style Header */
+h1 {
+    font-size: 30px;
+    text-align: right;
+    color: orange;
+}
+/* Style of adverb */
+.adverb {
+    font-style: italic;
+    font-weight: bold;
+    color:white;
+background-color: green;
+}
+/*Red first letter*/
+p:first-letter,
+span:first-letter {
+    color: red;
+}
+/* II. List's style */
+.garden,.storage {
+    text-align: left;
+}
+.storage {
+    color: blue;
+}
+.table-garden .fruits {
+    color: grey;
+}
+.table-storage .fruits {
+    color: green;
+}
+.vegetables {
+    color: red;
+}
+/* III. Table's style */
+.table {
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+}
+.student {
+    text-align: left;
+    font-weight: normal;
+    color: orange;
+}
+.result {
+    background-color: green;
+    color: white;
+    font-weight: normal;
+}
+
