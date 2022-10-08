@@ -1,0 +1,13 @@
+body {
+    font-size: 24px;
+}
+.table-link {
+    text-decoration: underline;
+}
+.main a {
+    color:blue;
+}
+ .google a {
+    color: #666;
+}
+.ukr a { color: #f70}
